@@ -1,0 +1,56 @@
+/* CSS file: love.css */
+
+/* Add some basic styles to the body element */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(184, 141, 141);
+  }
+  
+  /* Center the container element */
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Style the heading element */
+  h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  /* Style the options element */
+  .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Style the answer elements */
+  .answer {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s;
+  }
+  
+  /* Add some hover effects to the answer elements */
+  .answer:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: pink;
+  }
+  
